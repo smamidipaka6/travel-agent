@@ -45,13 +45,13 @@ const ChatInput = ({
           value={message}
           onChange={(e) => setMessage(e.target.value)}
           placeholder="Ask about destinations in Spain..."
-          className="flex-1 px-4 py-2 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-[#FF5A5F] focus:border-[#FF5A5F] transition text-[#484848] placeholder-[#767676]"
+          className="flex-1 px-4 py-2 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 ring-airbnb-primary focus:border-airbnb-primary transition text-airbnb-dark placeholder-airbnb-gray"
         />
 
         {/* Send button with paper plane icon */}
         <button
           type="submit"
-          className="p-2 rounded-full bg-[#FF5A5F] text-white hover:bg-[#FF7E82] transition-colors disabled:opacity-50 disabled:bg-[#767676]"
+          className="p-2 rounded-full bg-airbnb-primary text-white hover-airbnb-primary transition-colors disabled:opacity-50 disabled:bg-gray-400"
           disabled={!message.trim()}
           aria-label="Send message"
         >

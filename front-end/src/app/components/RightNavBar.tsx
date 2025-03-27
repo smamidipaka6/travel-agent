@@ -14,11 +14,11 @@ const RightNavBar = () => {
   return (
     <div className="flex justify-between items-center px-4 py-3 border-b border-gray-200 bg-white">
       {/* Itinerary label */}
-      <h2 className="text-lg font-semibold text-[#484848]">Itinerary</h2>
+      <h2 className="text-lg font-semibold text-airbnb-dark">Itinerary</h2>
 
       {/* Map icon button */}
       <button
-        className="hover:bg-gray-100 rounded-full p-2 transition-colors text-[#484848]"
+        className="hover:bg-gray-100 rounded-full p-2 transition-colors text-airbnb-dark"
         aria-label="View map"
       >
         <svg

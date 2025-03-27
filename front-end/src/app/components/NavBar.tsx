@@ -4,7 +4,7 @@ const NavBar = () => {
   return (
     <div className="sticky top-0 flex items-center justify-between px-4 py-3 bg-white shadow-sm z-10">
       {/* Back button with arrow icon */}
-      <button className="p-1 text-[#484848] hover:text-[#FF5A5F] transition-colors">
+      <button className="p-1 text-airbnb-dark hover:text-airbnb-primary transition-colors">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           className="h-5 w-5"
@@ -22,7 +22,7 @@ const NavBar = () => {
       </button>
 
       {/* Main title */}
-      <h1 className="text-lg font-bold text-[#484848]">
+      <h1 className="text-lg font-bold text-airbnb-dark">
         Must-See Destinations in Spain
       </h1>
 

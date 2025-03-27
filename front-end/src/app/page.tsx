@@ -39,7 +39,6 @@ const Page = () => {
     <div className="flex h-screen border-2 border-pink-500">
       {/* Left pane - Chat interface border-r border-gray-200*/}
       <div className="w-full md:w-1/2 flex flex-col h-full border border-blue-500">
-
         {/* Navigation bar at the top */}
         <div className="border border-yellow-500">
           <NavBar />
@@ -67,9 +66,7 @@ const Page = () => {
         <div className="sticky bottom-0 w-full px-4 border border-red-500">
           <ChatInput onSendMessage={handleSendMessage} />
         </div>
-
       </div>
-
 
 
 

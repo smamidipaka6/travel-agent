@@ -41,8 +41,8 @@ const ActivityCard = ({
 
       {/* Activity details */}
       <div className="flex-grow">
-        <h3 className="font-semibold text-[#484848]">{name}</h3>
-        <p className="text-sm text-[#767676]">{timeRange}</p>
+        <h3 className="font-semibold text-airbnb-dark">{name}</h3>
+        <p className="text-sm text-airbnb-gray">{timeRange}</p>
       </div>
 
       {/* Visit site button */}
@@ -50,7 +50,7 @@ const ActivityCard = ({
         href={siteUrl}
         target="_blank"
         rel="noopener noreferrer"
-        className="text-sm rounded-full px-3 py-1 border border-gray-300 hover:bg-gray-100 transition cursor-pointer text-[#484848]"
+        className="text-sm rounded-full px-3 py-1 border border-gray-300 hover:bg-gray-100 transition cursor-pointer text-airbnb-dark"
       >
         Visit site
       </a>

@@ -45,12 +45,12 @@ const DayAccordion = ({
         onClick={() => setIsExpanded(!isExpanded)}
         aria-expanded={isExpanded}
       >
-        <h2 className="text-base font-semibold text-[#484848]">Day {day}</h2>
+        <h2 className="text-base font-semibold text-airbnb-dark">Day {day}</h2>
 
         {/* Chevron icon that rotates based on expanded state */}
         <svg
           xmlns="http://www.w3.org/2000/svg"
-          className={`h-5 w-5 text-[#484848] transition-transform ${
+          className={`h-5 w-5 text-airbnb-dark transition-transform ${
             isExpanded ? "transform rotate-180" : ""
           }`}
           fill="none"

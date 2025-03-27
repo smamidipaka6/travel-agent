@@ -20,7 +20,7 @@ const ContentContainer = ({ children }: { children?: React.ReactNode }) => {
     >
       {children || (
         // Placeholder text shown when no content is available
-        <div className="text-[#767676] text-center mt-10">
+        <div className="text-airbnb-gray text-center mt-10">
           Ask about destinations in Spain to get started
         </div>
       )}
